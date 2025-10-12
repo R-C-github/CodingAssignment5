@@ -7,81 +7,98 @@
     <meta name="author" content="Rick C">
     <meta name="description" content="A chocolate chip cookie recipe."> 
     <link href="css/style.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=LXGW WenKai Mono TC">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=LXGW+WenKai+Mono+TC">
 </head>
 <body>
-    <h1>Required Recipies</h1>
-    <div class="container">
-        <div class="topleft">
-            <h2>Chocolate Chip Cookies</h2>
-            <p>Recipe by: Dora, found on <a href="https://www.allrecipes.com/recipe/10813/best-chocolate-chip-cookies/">allrecipes.com</a></p>
-            <figure>
-                <img src="images/ChocolateChipCookiesOnDryingRack.jpg" alt="Chocolate chip cookies on a metal drying rack" height="250">
-                <figcaption>Image by: Kimberly Vardeman from Lubbock, TX, USA, CC BY 2.0 https://creativecommons.org/licenses/by/2.0, via <a href="https://commons.wikimedia.org/wiki/File:Chocolate_Chip_Cookies_-_kimberlykv.jpg">Wikimedia Commons</a></figcaption>
-            </figure>
-        </div> <!--End of topleft section -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col" style="width: 100%;">
+                <h1>Chocolate Chip Cookies</h1>
+                <p>Recipe by: Dora, found on <a href="https://www.allrecipes.com/recipe/10813/best-chocolate-chip-cookies/">allrecipes.com</a></p>
+            </div>
+        </div>
 
-        <div class="bottomleft">
-            <h3>Conversion</h3>
-            <form>
-                <input type="text" id="tablespoons" placeholder="Tablespoons">
-                =
-                <input type="text" id="cups" placeholder="Cups">
-            </form>
+        <div class="row">
+            <div class="col" style="width: 10%;">
+                <ul class="links">
+                    <li><a>Recipe 1</a></li>
+                    <li><a>Recipe 2</a></li>
+                    <li><a>Recipe 3</a></li>
+                    <li><a>Recipe 4</a></li>
+                </ul>
+            </div>
+            <div class="col" style="width: 50%;">
+                <figure>
+                    <img src="images/ChocolateChipCookiesOnDryingRack.jpg" alt="Chocolate chip cookies on a metal drying rack" height="250">
+                    <figcaption>Image by: Kimberly Vardeman from Lubbock, TX, USA, CC BY 2.0 https://creativecommons.org/licenses/by/2.0, via <a href="https://commons.wikimedia.org/wiki/File:Chocolate_Chip_Cookies_-_kimberlykv.jpg">Wikimedia Commons</a></figcaption>
+                </figure>
+            </div>
+            <div class="col" style="width: 20%;">
+                <h3>Conversion</h3>
+                <form>
+                    <input type="text" id="tablespoons" placeholder="Tablespoons">
+                    =
+                    <input type="text" id="cups" placeholder="Cups">
+                </form>
 
-            <h3>Rate this Recipe</h3>
-            <fieldset>
-                <legend>What skill level is this recipe?</legend>
-                <input type="radio" id="easy" name="easy">Easy
-                <input type="radio" id="med" name="med">Intermediate
-                <input type="radio" id="hard" name="hard">Hard
-            </fieldset>
-        </div> <!--End of bottomleft section -->
+                <h3>Rate this Recipe</h3>
+                <fieldset>
+                    <legend>What skill level is this recipe?</legend>
+                    <input type="radio" id="easy" name="easy">Easy
+                    <input type="radio" id="med" name="med">Intermediate
+                    <input type="radio" id="hard" name="hard">Hard
+                </fieldset>
+            </div>
+        </div>
 
+        <div class="row">
+            <div class="col" style="width: 25%;">
+                <h3>Ingredients</h3>
+                <ul>
+                    <li>3 cups All-purpose <span class="ing1">Flour</span></li>
+                    <li>2 cups <span class="ing2">Chocolate Chips</span></li>
+                    <li>1 cup <span class="ing3">Butter</span></li>
+                    <li>1 cup <span class="ing4">White Sugar</span></li>
+                    <li>1 cup packed <span class="ing5">Brown Sugar</span></li>
+                    <li>1 cup Chopped <span class="ing6">Walnuts</span> (optional)</li>
+                    <li>2 Large <span class="ing7">Eggs</span></li>
+                    <li>2 teaspoons <span class="ing8">Vanilla Extract</span></li>
+                    <li>2 teaspoons Hot <span class="ing9">water</span></li>
+                    <li>1 teaspoon <span class="ing10">Baking Soda</span></li>
+                    <li>1/2 teaspoon <span class="ing11">Salt</span></li>
+                </ul>
+            </div>
+            <div class="col" style="width: 20%;">
+                <h3>Equipment</h3>
+                <ul>
+                    <li>Electric Mixer</li>
+                    <li>Oven</li>
+                    <li>Large Bowl</li>
+                    <li>Baking Sheets</li>
+                    <li>Baking pan</li>
+                </ul>
+            </div>
+            <div class="col" style="width: 40%;">
+                <h3>Directions</h3>
+                <ol>
+                    <li>Preheat your oven to 350° F.</li>
+                    <li>In a large bowl, beat <span class="ing3">butter</span>, <span class="ing4">white sugar</span>, and <span class="ing5">brown sugar</span> with an electric mixer until the batter is smooth</li>
+                    <li>Beat in the <span class="ing7">eggs</span> one at a time into the batter</li>
+                    <li>Stir in the <span class="ing8">vanilla extract</span></li>
+                    <li>Dissolve <span class="ing10">baking soda</span> in hot <span class="ing9">water</span></li>
+                    <li>Add <span class="ing10">baking soda</span> and <span class="ing11">salt</span> into the batter</li>
+                    <li>Stir in <span class="ing1">flour</span>, <span class="ing2">chocolate chips</span>, and <span class="ing6">walnuts</span> (optional) into the batter</li>
+                    <li>Drop spoonfuls of dough 2 inches apart onto ungreased baking sheets</li>
+                    <li>Bake the cookies in the oven until their edges are browned, about 10 minutes</li>
+                    <li>Let cookies cool on the baking sheet before cooling them on a wire rack</li>
+                </ol>
+            </div>
+        </div>
 
-        <div class="topright">
-            <h3>Ingredients</h3>
-            <ul>
-                <li>3 cups All-purpose Flour</li>
-                <li>2 cups Chocolate Chips</li>
-                <li>1 cup Butter</li>
-                <li>1 cup White Sugar</li>
-                <li>1 cup Chopped Walnuts (optional)</li>
-                <li>2 Large Eggs</li>
-                <li>2 teaspoons Vanilla Extract</li>
-                <li>2 teaspoons Hot water</li>
-                <li>1 teaspoon Baking Soda</li>
-                <li>1/2 teaspoon Salt</li>
-            </ul>
-        </div> <!--End of topright section -->
+        <div class="row">
+            <div class="col" style="width: 100%;"><hr><p>This page created as academic activity only.</p></div>
+        </div>
 
-        <!-- <h3>Equipment</h3>
-        <ul>
-            <li>Electric Mixer</li>
-            <li>Oven</li>
-            <li>Large Bowl</li>
-            <li>Baking Sheets</li>
-            <li>Baking pan</li>
-        </ul> -->
-
-        <div class="bottomright">
-            <h3>Directions</h3>
-            <ol>
-                <li>Preheat your oven to 350° F.</li>
-                <li>In a large bowl, beat butter, white sugar, and brown sugar with an electric mixer until the batter is smooth</li>
-                <li>Beat in the eggs one at a time into the batter</li>
-                <li>Stir in the vanilla extract</li>
-                <li>Dissolve baking soda in hot water</li>
-                <li>Add baking soda and salt into the batter</li>
-                <li>Stir in flour, chocolate chips, and walnuts (optional) into the batter</li>
-                <li>Drop spoonfuls of dough 2 inches apart onto ungreased baking sheets</li>
-                <li>Bake the cookies in the oven until their edges are browned, about 10 minutes</li>
-                <li>Let cookies cool on the baking sheet before cooling them on a wire rack.</li>
-            </ol>
-        </div> <!--End of bottomright section -->
-    </div> <!-- End of container-->
-
-    <br><hr>
-        <p>This page created as academic activity only.</p>
+    </div>
 </body>
 </html>

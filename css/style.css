@@ -28,41 +28,22 @@ hr {
 }
 
 /********* Layout *********/
-div {
-    
-    /* border: 5px solid black */
-    position: relative;
+/* div {
+    border: 1px solid black;
+} */
+
+* {
+    box-sizing: border-box;
 }
 
-.container {
-    display: grid;
-    column-gap: 50px;
-    row-gap: 20px;
+[class*="col"] {
+    float: left;
 }
 
-.topleft {
-    grid-column: 1;
-    grid-row: 1 / span 2;
-}
-
-.topright {
-    grid-column: 2;
-    grid-row: 1;
-}
-
-.bottomleft {
-    grid-column: 1;
-    grid-row: 3;
-}
-
-.bottomright {
-    grid-column: 2;
-    grid-row: 2 / span 2;
-}
-
-.info {
-    position:absolute;
-    bottom: 0%;
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
 }
 
 
@@ -79,6 +60,24 @@ a:hover {
 a:active {
     color:lightblue;
 }
+
+
+ul.links li {
+    background-color: #3c0a00;
+    border: 1px solid black;
+    color: beige;
+    text-align: center;
+    list-style-type: none;
+    
+}
+
+ul.links {
+    margin-top: 0%;
+    margin-left: -22%;
+    
+    width: 100%;
+}
+
 
 
 /********** Image and caption **********/
@@ -123,3 +122,49 @@ legend {
     font-size: 15px;
 }
 
+
+/********** Color coding **********/
+
+.ing1 {
+    text-decoration: underline 	#ff9999 solid 2px;
+}
+
+.ing2 {
+    text-decoration: underline 	#ffcc99 solid 2px;
+}
+
+.ing3 {
+    text-decoration: underline 	#ffff66 solid 2px;
+}
+
+.ing4 {
+    text-decoration: underline 	#b3ff66 solid 2px;
+}
+
+.ing5 {
+    text-decoration: underline 	#66ff66 solid 2px;
+}
+
+.ing6 {
+    text-decoration: underline 	#66ffb3 solid 2px;
+}
+
+.ing7 {
+    text-decoration: underline 	#66ffff solid 2px;
+}
+
+.ing8 {
+    text-decoration: underline 	#66b3ff solid 2px;
+}
+
+.ing9 {
+    text-decoration: underline 	#6666ff solid 2px;
+}
+
+.ing10 {
+    text-decoration: underline 	#b366ff solid 2px;
+}
+
+.ing11 {
+    text-decoration: underline 	#ff66ff solid 2px;
+}
