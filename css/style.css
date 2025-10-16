@@ -1,7 +1,9 @@
 
 /********** Main **********/
 body {
-    background-color: beige;
+    background-image: url(../images/close-up-shot-of-marble.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #3c0a00;
     font-family: LXGW WenKai Mono TC;
 }
